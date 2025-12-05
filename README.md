@@ -1,59 +1,19 @@
-# AppointmentApp
+🗓️ Appointment App — Built From Scratch
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+![Demo](demo.gif)
 
-## Development server
+I built this application entirely from scratch to demonstrate clean architecture, UI design, and state management in Angular.
 
-To start a local development server, run:
+This app allows users to easily create, manage, and persist appointments:
 
-```bash
-ng serve
-```
+➕ Create new appointments by selecting a date and adding it to the list
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📅 Perfect for simple daily scheduling (ex: picking a date for a mall visit)
 
-## Code scaffolding
+📋 View all existing appointments in a clean, intuitive list
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+❌ Remove appointments with a single click
 
-```bash
-ng generate component component-name
-```
+🔄 Automatic persistence: all appointments remain available even after refreshing the page thanks to browser Local Storage
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project highlights my ability to design a small but fully functional feature end-to-end  from UI/UX to data handling and persistence.
